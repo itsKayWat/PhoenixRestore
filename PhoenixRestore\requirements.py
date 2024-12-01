@@ -8,6 +8,11 @@ def install_requirements():
         'pillow',   # For image handling
         'pystray',  # For system tray functionality
         'pywin32',  # For Windows-specific features
+        'cryptography',  # For encryption support
+        'pytest',        # For testing
+        'sqlalchemy',    # For database operations
+        'requests',      # For API integration
+        'python-ldap',   # For Active Directory integration
     ]
 
     print("Installing required packages...")
