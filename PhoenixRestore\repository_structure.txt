@@ -1,0 +1,32 @@
+phoenix-recovery-tool/
+│
+├── src/
+│   ├── __init__.py
+│   ├── phoenix_recovery.py
+│   ├── scan_engine.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── file_operations.py
+│       └── ui_helpers.py
+│
+├── resources/
+│   ├── icons/
+│   │   └── tray_icon.png
+│   └── themes/
+│       └── dark_theme.json
+│
+├── docs/
+│   ├── README.html
+│   └── user_guide.pdf
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_recovery.py
+│   └── test_scanning.py
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── README.txt
+├── requirements.py
+└── setup.py
