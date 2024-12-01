@@ -1,13 +1,19 @@
 phoenix-recovery-tool/
 │
 ├── src/
-│   ├── __init__.py
-│   ├── phoenix_recovery.py
-│   ├── scan_engine.py
-│   └── utils/
-│       ├── __init__.py
-│       ├── file_operations.py
-│       └── ui_helpers.py
+│   ├── core/
+│   │   ├── scanner.py
+│   │   ├── recovery_engine.py
+│   │   └── encryption.py
+│   ├── database/
+│   │   ├── models.py
+│   │   └── operations.py
+│   ├── api/
+│   │   ├── rest_endpoints.py
+│   │   └── integrations.py
+│   └── ui/
+│       ├── main_window.py
+│       └── dialogs.py
 │
 ├── resources/
 │   ├── icons/
